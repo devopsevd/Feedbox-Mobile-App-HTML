@@ -306,10 +306,7 @@
   text-transform: uppercase;
 }
 .slide-root-class-name {
-  background-color: var(--dl-color-backgrounds-purple);
-}
-.slide-root-class-name1 {
-  background-color: var(--dl-color-backgrounds-green);
+  background-color: #8e622b;
 }
 .slide-root-class-name2 {
   background-color: var(--dl-color-backgrounds-purple);
@@ -321,7 +318,7 @@
   background-color: #0c1c29;
 }
 .slide-root-class-name5 {
-  background-color: #0c1c29;
+  background-color: #60775a;
 }
 @media(max-width: 991px) {
   .slide-left-side {
