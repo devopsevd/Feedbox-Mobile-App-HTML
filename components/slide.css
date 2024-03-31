@@ -127,7 +127,7 @@
   justify-content: center;
 }
 .slide-testimonial {
-  color: var(--dl-color-grays-white100);
+  color: #ffbb04;
   font-size: 27px;
   font-style: normal;
   font-weight: 500;
@@ -155,6 +155,18 @@
 }
 .slide-root-class-name1 {
   background-color: var(--dl-color-backgrounds-green);
+}
+.slide-root-class-name2 {
+  background-color: var(--dl-color-backgrounds-purple);
+}
+.slide-root-class-name3 {
+  background-color: var(--dl-color-backgrounds-green);
+}
+.slide-root-class-name4 {
+  background-color: #0c1c29;
+}
+.slide-root-class-name5 {
+  background-color: #0c1c29;
 }
 @media(max-width: 991px) {
   .slide-left-side {
