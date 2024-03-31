@@ -44,7 +44,7 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  background-color: var(--dl-color-backgrounds-lightgreen);
+  background-color: #6c8b97;
 }
 .slide-orange {
   flex: 0 0 auto;
@@ -53,7 +53,7 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  background-color: var(--dl-color-backgrounds-primary);
+  background-color: #ffbb04;
 }
 .slide-image-container {
   display: flex;
