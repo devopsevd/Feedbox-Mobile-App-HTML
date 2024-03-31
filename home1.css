@@ -5,9 +5,11 @@
   flex-direction: row;
 }
 .navigation-links-text1 {
+  display: none;
   margin-left: var(--dl-space-space-twounits);
 }
 .navigation-links-text2 {
+  display: none;
   margin-left: var(--dl-space-space-twounits);
 }
 
@@ -44,6 +46,7 @@
 .navbar-text {
   color: rgb(255, 187, 4);
   font-size: 40px;
+  text-decoration: none;
 }
 .navbar-image {
   width: 106px;
@@ -454,10 +457,14 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.footer-link {
+  display: contents;
+}
 .footer-image {
   width: 92px;
   height: 58px;
   margin-bottom: var(--dl-space-space-twounits);
+  text-decoration: none;
 }
 .footer-text {
   color: var(--dl-color-grays-gray100);

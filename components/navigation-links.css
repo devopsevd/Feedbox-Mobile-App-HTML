@@ -5,9 +5,11 @@
   flex-direction: row;
 }
 .navigation-links-text1 {
+  display: none;
   margin-left: var(--dl-space-space-twounits);
 }
 .navigation-links-text2 {
+  display: none;
   margin-left: var(--dl-space-space-twounits);
 }
 
