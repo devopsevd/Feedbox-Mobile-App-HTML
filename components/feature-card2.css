@@ -7,27 +7,35 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.feature-card2-icon {
+ 
+.feature-card2-icon1 {
   fill: #595959;
   width: 2rem;
   height: 2rem;
   flex-shrink: 0;
   margin-right: var(--dl-space-space-oneandhalfunits);
 }
+ 
 .feature-card2-container {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.feature-card2-text {
+ 
+.feature-card2-text1 {
   font-weight: 600;
   margin-bottom: var(--dl-space-space-unit);
 }
+ 
 
+ 
 
+ 
 
+ 
 
+ 
 @media(max-width: 767px) {
   .feature-card2-feature-card {
     flex-direction: row;
@@ -36,6 +44,7 @@
     flex-direction: column;
   }
 }
+ 
 @media(max-width: 479px) {
   .feature-card2-container {
     flex-direction: column;

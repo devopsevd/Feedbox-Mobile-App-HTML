@@ -7,13 +7,15 @@
   flex-direction: column;
   background-color: var(--dl-color-grays-white100);
 }
+ 
 .grid-card-image {
   width: 60px;
   height: 60px;
   object-fit: cover;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.grid-card-text {
+ 
+.grid-card-text1 {
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
