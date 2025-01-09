@@ -54,7 +54,7 @@
   }
 }
 
-.navigation-links-wrapper-bwvk {
+.navigation-links-wrapper-s6px {
   display: contents;
 }
  
@@ -110,7 +110,7 @@
   }
 }
 
-.navigation-links-wrapper-1oqm {
+.navigation-links-wrapper-p85n {
   display: contents;
 }
  
@@ -575,7 +575,7 @@
   }
 }
 
-.slide-wrapper-9avq {
+.slide-wrapper-5x3t {
   display: contents;
 }
  
@@ -867,7 +867,7 @@
   }
 }
 
-.slide-wrapper-9vzh {
+.slide-wrapper-hke2 {
   display: contents;
 }
  
@@ -1159,7 +1159,7 @@
   }
 }
 
-.slide-wrapper-7qgh {
+.slide-wrapper-39nf {
   display: contents;
 }
  
@@ -1451,7 +1451,7 @@
   }
 }
 
-.slide-wrapper-4vdz {
+.slide-wrapper-97oc {
   display: contents;
 }
  
@@ -1743,7 +1743,7 @@
   }
 }
 
-.slide-wrapper-szyq {
+.slide-wrapper-hxrt {
   display: contents;
 }
  
@@ -2035,7 +2035,7 @@
   }
 }
 
-.slide-wrapper-ei02 {
+.slide-wrapper-hbfd {
   display: contents;
 }
  
@@ -2327,7 +2327,7 @@
   }
 }
 
-.slide-wrapper-57w5 {
+.slide-wrapper-pmcq {
   display: contents;
 }
  
@@ -2619,7 +2619,7 @@
   }
 }
 
-.slide-wrapper-oiyj {
+.slide-wrapper-pfck {
   display: contents;
 }
  
@@ -2911,7 +2911,7 @@
   }
 }
 
-.slide-wrapper-am74 {
+.slide-wrapper-qj0q {
   display: contents;
 }
  
@@ -3203,7 +3203,7 @@
   }
 }
 
-.slide-wrapper-nkez {
+.slide-wrapper-kb5y {
   display: contents;
 }
  
@@ -3495,7 +3495,7 @@
   }
 }
 
-.slide-wrapper-v6s8 {
+.slide-wrapper-6qea {
   display: contents;
 }
  
@@ -4132,6 +4132,11 @@
   display: inline-block;
 }
  
+.home-link {
+  color: #e22323;
+  font-size: 24px;
+}
+ 
 .home-section-one {
   display: none;
   border-color: rgba(33, 33, 33, 0.1);
@@ -4419,8 +4424,6 @@
  
 .home-text79 {
   font-size: 30px;
-  font-style: normal;
-  font-weight: 600;
 }
  
 .home-max-width4 {
@@ -4478,6 +4481,7 @@
 }
  
 .home-section-four2 {
+  width: 1164px;
   padding-bottom: 0px;
 }
  
@@ -4489,8 +4493,6 @@
  
 .home-text85 {
   font-size: 30px;
-  font-style: normal;
-  font-weight: 600;
 }
  
 .home-max-width5 {
@@ -4559,8 +4561,6 @@
  
 .home-text91 {
   font-size: 30px;
-  font-style: normal;
-  font-weight: 600;
 }
  
 .home-max-width6 {
@@ -4629,8 +4629,6 @@
  
 .home-text97 {
   font-size: 30px;
-  font-style: normal;
-  font-weight: 600;
 }
  
 .home-max-width7 {
