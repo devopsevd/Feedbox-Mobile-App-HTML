@@ -35,6 +35,10 @@
  
 
  
+
+ 
+
+ 
 @media(max-width: 767px) {
   .navigation-links-nav {
     align-items: flex-start;
@@ -50,7 +54,7 @@
   }
 }
 
-.navigation-links-wrapper-faqa {
+.navigation-links-wrapper-ithc {
   display: contents;
 }
  
@@ -87,6 +91,10 @@
  
 
  
+
+ 
+
+ 
 @media(max-width: 767px) {
   .navigation-links-nav1 {
     align-items: flex-start;
@@ -97,6 +105,118 @@
     margin-bottom: var(--dl-space-space-unit);
   }
   .navigation-links-text6 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+
+.navigation-links-wrapper-y9it {
+  display: contents;
+}
+ 
+.navigation-links-nav2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+ 
+.navigation-links-text8 {
+  display: none;
+  margin-left: var(--dl-space-space-twounits);
+}
+ 
+.navigation-links-text9 {
+  display: none;
+  margin-left: var(--dl-space-space-twounits);
+}
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+@media(max-width: 767px) {
+  .navigation-links-nav2 {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .navigation-links-text8 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text9 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+
+.navigation-links-wrapper-pkxi {
+  display: contents;
+}
+ 
+.navigation-links-nav3 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+ 
+.navigation-links-text11 {
+  display: none;
+  margin-left: var(--dl-space-space-twounits);
+}
+ 
+.navigation-links-text12 {
+  display: none;
+  margin-left: var(--dl-space-space-twounits);
+}
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+@media(max-width: 767px) {
+  .navigation-links-nav3 {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .navigation-links-text11 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text12 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
@@ -115,8 +235,13 @@
   justify-content: flex-start;
 }
  
+.navbar-max-width {
+  position: fixed;
+}
+ 
 .navbar-text1 {
-  color: rgb(255, 187, 4);
+  color: #121212;
+  text-decoration: none;
 }
  
 .navbar-image1 {
@@ -128,12 +253,44 @@
   display: flex;
 }
  
+.navbar-navlink1 {
+  display: contents;
+}
+ 
+.navbar-home {
+  text-decoration: none;
+}
+ 
+.navbar-nav2 {
+  display: flex;
+}
+ 
+.navbar-navlink2 {
+  display: contents;
+}
+ 
+.navbar-termsofservice {
+  text-decoration: none;
+}
+ 
+.navbar-nav3 {
+  display: flex;
+}
+ 
+.navbar-navlink3 {
+  display: contents;
+}
+ 
+.navbar-privacy {
+  text-decoration: none;
+}
+ 
 .navbar-icon10 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
  
-.navbar-nav2 {
+.navbar-nav4 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -238,6 +395,12 @@
   .navbar-nav1 {
     display: none;
   }
+  .navbar-nav2 {
+    display: none;
+  }
+  .navbar-nav3 {
+    display: none;
+  }
 }
 
 .feature-card-wrapper {
@@ -300,7 +463,7 @@
   }
 }
 
-.feature-card-wrapper-4q7k {
+.feature-card-wrapper-py6i {
   display: contents;
 }
  
@@ -360,7 +523,7 @@
   }
 }
 
-.feature-card-wrapper-pgnq {
+.feature-card-wrapper-kx6i {
   display: contents;
 }
  
@@ -420,7 +583,7 @@
   }
 }
 
-.feature-card-wrapper-jk2a {
+.feature-card-wrapper-ejvf {
   display: contents;
 }
  
@@ -727,7 +890,7 @@
   }
 }
 
-.slide-wrapper-sl87 {
+.slide-wrapper-65n1 {
   display: contents;
 }
  
@@ -974,7 +1137,7 @@
   }
 }
 
-.slide-wrapper-hxmt {
+.slide-wrapper-siff {
   display: contents;
 }
  
@@ -1250,7 +1413,7 @@
   margin-bottom: var(--dl-space-space-halfunit);
 }
 
-.grid-card-wrapper-qddd {
+.grid-card-wrapper-5vl4 {
   display: contents;
 }
  
@@ -1279,7 +1442,7 @@
   margin-bottom: var(--dl-space-space-halfunit);
 }
 
-.grid-card-wrapper-00qh {
+.grid-card-wrapper-ggul {
   display: contents;
 }
  
@@ -1308,7 +1471,7 @@
   margin-bottom: var(--dl-space-space-halfunit);
 }
 
-.grid-card-wrapper-jr2o {
+.grid-card-wrapper-vx14 {
   display: contents;
 }
  
@@ -1528,6 +1691,14 @@
 }
  
 .footerroot-class-name {
+  display: none;
+}
+ 
+.footerroot-class-name1 {
+  display: none;
+}
+ 
+.footerroot-class-name2 {
   display: none;
 }
  

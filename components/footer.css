@@ -188,6 +188,14 @@
   display: none;
 }
  
+.footerroot-class-name1 {
+  display: none;
+}
+ 
+.footerroot-class-name2 {
+  display: none;
+}
+ 
 @media(max-width: 991px) {
   .footer-max-width {
     flex-direction: column-reverse;

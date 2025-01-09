@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Shramah</title>
-    <meta property="og:title" content="Shramah" />
+    <title>Architxt</title>
+    <meta property="og:title" content="Architxt" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta property="twitter:card" content="summary_large_image" />
@@ -34,12 +34,6 @@
       href="https://unpkg.com/animate.css@4.1.1/animate.css"
     />
     <link
-      rel="shortcut icon"
-      href="public/screenshot 2024-02-03 at 6.15.52â¯am.png"
-      type="icon/png"
-      sizes="32x32"
-    />
-    <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
       data-tag="font"
@@ -60,19 +54,24 @@
       <link href="./index.css" rel="stylesheet" />
 
       <div class="home-container1">
-        <navbar-wrapper class="navbar-wrapper">
-          <!--Navbar component-->
-          <div class="navbar-navbar-container">
-            <header data-role="Header" class="navigation-container">
-              <a href="index.html" class="navbar-text1">Architxt</a>
-              <img
-                alt="logo"
-                src="public/logo-1500h.png"
-                class="navbar-image1"
-              />
-              <div class="navbar-nav1">
+        <a href="index.html" class="home-navlink">
+          <navbar-wrapper class="home-component1">
+            <!--Navbar component-->
+          </navbar-wrapper>
+        </a>
+        <div class="navbar-navbar-container">
+          <a href="index.html" class="home-navlink"></a>
+          <header
+            data-role="Header"
+            class="navbar-max-width navigation-container"
+          >
+            <a href="index.html" class="home-navlink"></a>
+            <a href="index.html" class="navbar-text1">Architxt</a>
+            <img alt="logo" src="public/logo-1500h.png" class="navbar-image1" />
+            <div class="navbar-nav1">
+              <a href="index.html" class="navbar-navlink1">
                 <navigation-links-wrapper
-                  class="navigation-links-wrapper"
+                  class="navbar-home"
                   rootclassname="navigation-linksundefined"
                 >
                   <!--NavigationLinks component-->
@@ -88,87 +87,132 @@
                     </span>
                   </nav>
                 </navigation-links-wrapper>
-              </div>
-              <div data-role="BurgerMenu" class="navigation-burger-menu">
-                <svg viewBox="0 0 1024 1024" class="navbar-icon10">
-                  <path
-                    d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
-                  ></path>
-                </svg>
-              </div>
-              <div data-role="MobileMenu" class="navigation-mobile-menu">
-                <div class="navbar-nav2">
-                  <div class="navbar-container1">
-                    <img
-                      alt="image"
-                      src="public/logo-1500h.png"
-                      class="navbar-image2"
-                    />
-                    <div data-role="CloseMobileMenu" class="navbar-menu-close">
-                      <svg viewBox="0 0 1024 1024" class="navbar-icon12">
-                        <path
-                          d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
-                        ></path>
-                      </svg>
-                    </div>
-                  </div>
-                  <navigation-links-wrapper-o7qi
-                    class="navigation-links-wrapper-o7qi"
-                    rootclassname="navigation-linksundefined"
+              </a>
+            </div>
+            <div class="navbar-nav2">
+              <a href="termsof-service.html" class="navbar-navlink2">
+                <navigation-links-wrapper-0vpz
+                  class="navbar-termsofservice"
+                  rootclassname="navigation-linksundefined"
+                >
+                  <!--NavigationLinks component-->
+                  <nav
+                    class="navigation-links-nav1 navigation-linksroot-class-name8"
                   >
-                    <!--NavigationLinks component-->
-                    <nav
-                      class="navigation-links-nav1 navigation-linksroot-class-name11"
-                    >
-                      <span class="navbar-link"><span>Home</span></span>
-                      <span class="navigation-links-text5 navbar-link">
-                        <span>About</span>
-                      </span>
-                      <span class="navigation-links-text6 navbar-link">
-                        <span>Features</span>
-                      </span>
-                    </nav>
-                  </navigation-links-wrapper-o7qi>
-                  <button class="navbar-primary-btn button-primary button">
-                    <span>Get started</span>
-                  </button>
-                </div>
-                <div class="navbar-social-media">
-                  <span class="navbar-text2"><span>Follow us</span></span>
-                  <div class="navbar-container2">
-                    <svg viewBox="0 0 1024 1024" class="navbar-icon14">
+                    <span class="navbar-link">
+                      <span>Terms of Service</span>
+                    </span>
+                    <span class="navigation-links-text5 navbar-link">
+                      <span>About</span>
+                    </span>
+                    <span class="navigation-links-text6 navbar-link">
+                      <span>Features</span>
+                    </span>
+                  </nav>
+                </navigation-links-wrapper-0vpz>
+              </a>
+            </div>
+            <div class="navbar-nav3">
+              <a href="privacypolicy.html" class="navbar-navlink3">
+                <navigation-links-wrapper-s0su
+                  class="navbar-privacy"
+                  rootclassname="navigation-linksundefined"
+                >
+                  <!--NavigationLinks component-->
+                  <nav
+                    class="navigation-links-nav2 navigation-linksroot-class-name9"
+                  >
+                    <span class="navbar-link"><span>Privacy Policy</span></span>
+                    <span class="navigation-links-text8 navbar-link">
+                      <span>About</span>
+                    </span>
+                    <span class="navigation-links-text9 navbar-link">
+                      <span>Features</span>
+                    </span>
+                  </nav>
+                </navigation-links-wrapper-s0su>
+              </a>
+            </div>
+            <div data-role="BurgerMenu" class="navigation-burger-menu">
+              <svg viewBox="0 0 1024 1024" class="navbar-icon10">
+                <path
+                  d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                ></path>
+              </svg>
+            </div>
+            <div data-role="MobileMenu" class="navigation-mobile-menu">
+              <div class="navbar-nav4">
+                <div class="navbar-container1">
+                  <img
+                    alt="image"
+                    src="public/logo-1500h.png"
+                    class="navbar-image2"
+                  />
+                  <div data-role="CloseMobileMenu" class="navbar-menu-close">
+                    <svg viewBox="0 0 1024 1024" class="navbar-icon12">
                       <path
-                        d="M384 384h177.106v90.782h2.532c24.64-44.194 84.958-90.782 174.842-90.782 186.946 0 221.52 116.376 221.52 267.734v308.266h-184.61v-273.278c0-65.184-1.334-149.026-96.028-149.026-96.148 0-110.82 70.986-110.82 144.292v278.012h-184.542v-576z"
-                      ></path>
-                      <path d="M64 384h192v576h-192v-576z"></path>
-                      <path
-                        d="M256 224c0 53.019-42.981 96-96 96s-96-42.981-96-96c0-53.019 42.981-96 96-96s96 42.981 96 96z"
-                      ></path></svg
-                    ><svg viewBox="0 0 1024 1024" class="navbar-icon18">
-                      <path
-                        d="M512 92.2c136.8 0 153 0.6 206.8 3 50 2.2 77 10.6 95 17.6 23.8 9.2 41 20.4 58.8 38.2 18 18 29 35 38.4 58.8 7 18 15.4 45.2 17.6 95 2.4 54 3 70.2 3 206.8s-0.6 153-3 206.8c-2.2 50-10.6 77-17.6 95-9.2 23.8-20.4 41-38.2 58.8-18 18-35 29-58.8 38.4-18 7-45.2 15.4-95 17.6-54 2.4-70.2 3-206.8 3s-153-0.6-206.8-3c-50-2.2-77-10.6-95-17.6-23.8-9.2-41-20.4-58.8-38.2-18-18-29-35-38.4-58.8-7-18-15.4-45.2-17.6-95-2.4-54-3-70.2-3-206.8s0.6-153 3-206.8c2.2-50 10.6-77 17.6-95 9.2-23.8 20.4-41 38.2-58.8 18-18 35-29 58.8-38.4 18-7 45.2-15.4 95-17.6 53.8-2.4 70-3 206.8-3zM512 0c-139 0-156.4 0.6-211 3-54.4 2.4-91.8 11.2-124.2 23.8-33.8 13.2-62.4 30.6-90.8 59.2-28.6 28.4-46 57-59.2 90.6-12.6 32.6-21.4 69.8-23.8 124.2-2.4 54.8-3 72.2-3 211.2s0.6 156.4 3 211c2.4 54.4 11.2 91.8 23.8 124.2 13.2 33.8 30.6 62.4 59.2 90.8 28.4 28.4 57 46 90.6 59 32.6 12.6 69.8 21.4 124.2 23.8 54.6 2.4 72 3 211 3s156.4-0.6 211-3c54.4-2.4 91.8-11.2 124.2-23.8 33.6-13 62.2-30.6 90.6-59s46-57 59-90.6c12.6-32.6 21.4-69.8 23.8-124.2 2.4-54.6 3-72 3-211s-0.6-156.4-3-211c-2.4-54.4-11.2-91.8-23.8-124.2-12.6-34-30-62.6-58.6-91-28.4-28.4-57-46-90.6-59-32.6-12.6-69.8-21.4-124.2-23.8-54.8-2.6-72.2-3.2-211.2-3.2v0z"
-                      ></path>
-                      <path
-                        d="M512 249c-145.2 0-263 117.8-263 263s117.8 263 263 263 263-117.8 263-263c0-145.2-117.8-263-263-263zM512 682.6c-94.2 0-170.6-76.4-170.6-170.6s76.4-170.6 170.6-170.6c94.2 0 170.6 76.4 170.6 170.6s-76.4 170.6-170.6 170.6z"
-                      ></path>
-                      <path
-                        d="M846.8 238.6c0 33.91-27.49 61.4-61.4 61.4s-61.4-27.49-61.4-61.4c0-33.91 27.49-61.4 61.4-61.4s61.4 27.49 61.4 61.4z"
-                      ></path></svg
-                    ><svg viewBox="0 0 1024 1024" class="navbar-icon22">
-                      <path
-                        d="M920.021 283.179c12.245 65.237 19.115 140.587 18.645 218.667 0.811 65.195-5.248 139.392-18.645 214.229-2.432 8.875-6.4 17.195-11.605 24.533-9.685 13.696-23.808 24.107-40.491 28.8-25.771 6.869-91.989 11.733-165.419 14.549-95.147 3.669-190.507 3.669-190.507 3.669s-95.36 0-190.507-3.627c-73.429-2.816-139.648-7.637-164.949-14.421-8.747-2.432-16.896-6.315-24.149-11.435-13.269-9.387-23.509-22.869-28.587-39.381-12.16-65.109-18.944-140.203-18.475-218.027-0.896-65.707 5.163-140.459 18.645-215.893 2.432-8.875 6.4-17.195 11.605-24.533 9.685-13.696 23.808-24.107 40.491-28.8 25.771-6.869 91.989-11.733 165.419-14.549 95.147-3.627 190.507-3.627 190.507-3.627s95.36 0 190.549 3.328c73.344 2.56 140.032 6.955 164.523 12.928 9.344 2.688 17.963 7.040 25.515 12.757 13.099 9.899 22.955 23.936 27.435 40.875zM1003.093 263.552c-9.259-36.949-30.635-67.84-59.008-89.301-15.915-12.032-33.963-21.077-53.291-26.667-38.315-9.387-115.029-13.781-185.259-16.213-96.725-3.371-193.536-3.371-193.536-3.371s-96.939 0-193.749 3.712c-70.059 2.688-147.2 7.467-184.192 17.365-37.291 10.539-67.456 32.853-88.064 61.867-11.52 16.256-20.011 34.603-25.045 54.101-0.256 1.024-0.469 2.091-0.64 3.029-14.635 80.981-21.291 161.835-20.309 233.856-0.512 82.091 6.869 163.456 20.352 234.752 0.256 1.323 0.555 2.645 0.896 3.755 10.453 36.693 32.853 66.859 61.909 87.381 15.232 10.752 32.299 18.859 50.389 23.936 37.504 10.027 114.603 14.805 184.661 17.493 96.853 3.712 193.792 3.712 193.792 3.712s96.939 0 193.749-3.712c70.059-2.688 147.157-7.467 184.192-17.365 37.248-10.539 67.456-32.853 88.021-61.867 11.52-16.256 20.053-34.603 25.045-54.059 0.256-1.067 0.512-2.133 0.64-3.029 14.507-80.384 21.163-160.64 20.309-232.107 0.512-82.133-6.869-163.541-20.352-234.837-0.171-0.853-0.341-1.707-0.512-2.432zM458.667 567.509v-132.352l116.352 66.176zM437.077 677.931l245.333-139.52c20.48-11.648 27.648-37.717 16-58.197-3.968-6.997-9.643-12.459-16-16l-245.333-139.52c-20.48-11.648-46.549-4.48-58.197 16-3.84 6.741-5.632 14.080-5.589 21.077v279.040c0 23.552 19.115 42.667 42.667 42.667 7.765 0 15.019-2.091 21.077-5.589z"
-                      ></path></svg
-                    ><svg viewBox="0 0 1024 1024" class="navbar-icon24">
-                      <path
-                        d="M1024 226.4c-37.6 16.8-78.2 28-120.6 33 43.4-26 76.6-67.2 92.4-116.2-40.6 24-85.6 41.6-133.4 51-38.4-40.8-93-66.2-153.4-66.2-116 0-210 94-210 210 0 16.4 1.8 32.4 5.4 47.8-174.6-8.8-329.4-92.4-433-219.6-18 31-28.4 67.2-28.4 105.6 0 72.8 37 137.2 93.4 174.8-34.4-1-66.8-10.6-95.2-26.2 0 0.8 0 1.8 0 2.6 0 101.8 72.4 186.8 168.6 206-17.6 4.8-36.2 7.4-55.4 7.4-13.6 0-26.6-1.4-39.6-3.8 26.8 83.4 104.4 144.2 196.2 146-72 56.4-162.4 90-261 90-17 0-33.6-1-50.2-3 93.2 59.8 203.6 94.4 322.2 94.4 386.4 0 597.8-320.2 597.8-597.8 0-9.2-0.2-18.2-0.6-27.2 41-29.4 76.6-66.4 104.8-108.6z"
+                        d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
                       ></path>
                     </svg>
                   </div>
                 </div>
+                <navigation-links-wrapper-pdkj
+                  class="navigation-links-wrapper-pdkj"
+                  rootclassname="navigation-linksundefined"
+                >
+                  <!--NavigationLinks component-->
+                  <nav
+                    class="navigation-links-nav3 navigation-linksroot-class-name11"
+                  >
+                    <span class="navbar-link"><span>Home</span></span>
+                    <span class="navigation-links-text11 navbar-link">
+                      <span>About</span>
+                    </span>
+                    <span class="navigation-links-text12 navbar-link">
+                      <span>Features</span>
+                    </span>
+                  </nav>
+                </navigation-links-wrapper-pdkj>
+                <button class="navbar-primary-btn button-primary button">
+                  <span>Get started</span>
+                </button>
               </div>
-            </header>
-          </div>
-        </navbar-wrapper>
+              <div class="navbar-social-media">
+                <span class="navbar-text2"><span>Follow us</span></span>
+                <div class="navbar-container2">
+                  <svg viewBox="0 0 1024 1024" class="navbar-icon14">
+                    <path
+                      d="M384 384h177.106v90.782h2.532c24.64-44.194 84.958-90.782 174.842-90.782 186.946 0 221.52 116.376 221.52 267.734v308.266h-184.61v-273.278c0-65.184-1.334-149.026-96.028-149.026-96.148 0-110.82 70.986-110.82 144.292v278.012h-184.542v-576z"
+                    ></path>
+                    <path d="M64 384h192v576h-192v-576z"></path>
+                    <path
+                      d="M256 224c0 53.019-42.981 96-96 96s-96-42.981-96-96c0-53.019 42.981-96 96-96s96 42.981 96 96z"
+                    ></path></svg
+                  ><svg viewBox="0 0 1024 1024" class="navbar-icon18">
+                    <path
+                      d="M512 92.2c136.8 0 153 0.6 206.8 3 50 2.2 77 10.6 95 17.6 23.8 9.2 41 20.4 58.8 38.2 18 18 29 35 38.4 58.8 7 18 15.4 45.2 17.6 95 2.4 54 3 70.2 3 206.8s-0.6 153-3 206.8c-2.2 50-10.6 77-17.6 95-9.2 23.8-20.4 41-38.2 58.8-18 18-35 29-58.8 38.4-18 7-45.2 15.4-95 17.6-54 2.4-70.2 3-206.8 3s-153-0.6-206.8-3c-50-2.2-77-10.6-95-17.6-23.8-9.2-41-20.4-58.8-38.2-18-18-29-35-38.4-58.8-7-18-15.4-45.2-17.6-95-2.4-54-3-70.2-3-206.8s0.6-153 3-206.8c2.2-50 10.6-77 17.6-95 9.2-23.8 20.4-41 38.2-58.8 18-18 35-29 58.8-38.4 18-7 45.2-15.4 95-17.6 53.8-2.4 70-3 206.8-3zM512 0c-139 0-156.4 0.6-211 3-54.4 2.4-91.8 11.2-124.2 23.8-33.8 13.2-62.4 30.6-90.8 59.2-28.6 28.4-46 57-59.2 90.6-12.6 32.6-21.4 69.8-23.8 124.2-2.4 54.8-3 72.2-3 211.2s0.6 156.4 3 211c2.4 54.4 11.2 91.8 23.8 124.2 13.2 33.8 30.6 62.4 59.2 90.8 28.4 28.4 57 46 90.6 59 32.6 12.6 69.8 21.4 124.2 23.8 54.6 2.4 72 3 211 3s156.4-0.6 211-3c54.4-2.4 91.8-11.2 124.2-23.8 33.6-13 62.2-30.6 90.6-59s46-57 59-90.6c12.6-32.6 21.4-69.8 23.8-124.2 2.4-54.6 3-72 3-211s-0.6-156.4-3-211c-2.4-54.4-11.2-91.8-23.8-124.2-12.6-34-30-62.6-58.6-91-28.4-28.4-57-46-90.6-59-32.6-12.6-69.8-21.4-124.2-23.8-54.8-2.6-72.2-3.2-211.2-3.2v0z"
+                    ></path>
+                    <path
+                      d="M512 249c-145.2 0-263 117.8-263 263s117.8 263 263 263 263-117.8 263-263c0-145.2-117.8-263-263-263zM512 682.6c-94.2 0-170.6-76.4-170.6-170.6s76.4-170.6 170.6-170.6c94.2 0 170.6 76.4 170.6 170.6s-76.4 170.6-170.6 170.6z"
+                    ></path>
+                    <path
+                      d="M846.8 238.6c0 33.91-27.49 61.4-61.4 61.4s-61.4-27.49-61.4-61.4c0-33.91 27.49-61.4 61.4-61.4s61.4 27.49 61.4 61.4z"
+                    ></path></svg
+                  ><svg viewBox="0 0 1024 1024" class="navbar-icon22">
+                    <path
+                      d="M920.021 283.179c12.245 65.237 19.115 140.587 18.645 218.667 0.811 65.195-5.248 139.392-18.645 214.229-2.432 8.875-6.4 17.195-11.605 24.533-9.685 13.696-23.808 24.107-40.491 28.8-25.771 6.869-91.989 11.733-165.419 14.549-95.147 3.669-190.507 3.669-190.507 3.669s-95.36 0-190.507-3.627c-73.429-2.816-139.648-7.637-164.949-14.421-8.747-2.432-16.896-6.315-24.149-11.435-13.269-9.387-23.509-22.869-28.587-39.381-12.16-65.109-18.944-140.203-18.475-218.027-0.896-65.707 5.163-140.459 18.645-215.893 2.432-8.875 6.4-17.195 11.605-24.533 9.685-13.696 23.808-24.107 40.491-28.8 25.771-6.869 91.989-11.733 165.419-14.549 95.147-3.627 190.507-3.627 190.507-3.627s95.36 0 190.549 3.328c73.344 2.56 140.032 6.955 164.523 12.928 9.344 2.688 17.963 7.040 25.515 12.757 13.099 9.899 22.955 23.936 27.435 40.875zM1003.093 263.552c-9.259-36.949-30.635-67.84-59.008-89.301-15.915-12.032-33.963-21.077-53.291-26.667-38.315-9.387-115.029-13.781-185.259-16.213-96.725-3.371-193.536-3.371-193.536-3.371s-96.939 0-193.749 3.712c-70.059 2.688-147.2 7.467-184.192 17.365-37.291 10.539-67.456 32.853-88.064 61.867-11.52 16.256-20.011 34.603-25.045 54.101-0.256 1.024-0.469 2.091-0.64 3.029-14.635 80.981-21.291 161.835-20.309 233.856-0.512 82.091 6.869 163.456 20.352 234.752 0.256 1.323 0.555 2.645 0.896 3.755 10.453 36.693 32.853 66.859 61.909 87.381 15.232 10.752 32.299 18.859 50.389 23.936 37.504 10.027 114.603 14.805 184.661 17.493 96.853 3.712 193.792 3.712 193.792 3.712s96.939 0 193.749-3.712c70.059-2.688 147.157-7.467 184.192-17.365 37.248-10.539 67.456-32.853 88.021-61.867 11.52-16.256 20.053-34.603 25.045-54.059 0.256-1.067 0.512-2.133 0.64-3.029 14.507-80.384 21.163-160.64 20.309-232.107 0.512-82.133-6.869-163.541-20.352-234.837-0.171-0.853-0.341-1.707-0.512-2.432zM458.667 567.509v-132.352l116.352 66.176zM437.077 677.931l245.333-139.52c20.48-11.648 27.648-37.717 16-58.197-3.968-6.997-9.643-12.459-16-16l-245.333-139.52c-20.48-11.648-46.549-4.48-58.197 16-3.84 6.741-5.632 14.080-5.589 21.077v279.040c0 23.552 19.115 42.667 42.667 42.667 7.765 0 15.019-2.091 21.077-5.589z"
+                    ></path></svg
+                  ><svg viewBox="0 0 1024 1024" class="navbar-icon24">
+                    <path
+                      d="M1024 226.4c-37.6 16.8-78.2 28-120.6 33 43.4-26 76.6-67.2 92.4-116.2-40.6 24-85.6 41.6-133.4 51-38.4-40.8-93-66.2-153.4-66.2-116 0-210 94-210 210 0 16.4 1.8 32.4 5.4 47.8-174.6-8.8-329.4-92.4-433-219.6-18 31-28.4 67.2-28.4 105.6 0 72.8 37 137.2 93.4 174.8-34.4-1-66.8-10.6-95.2-26.2 0 0.8 0 1.8 0 2.6 0 101.8 72.4 186.8 168.6 206-17.6 4.8-36.2 7.4-55.4 7.4-13.6 0-26.6-1.4-39.6-3.8 26.8 83.4 104.4 144.2 196.2 146-72 56.4-162.4 90-261 90-17 0-33.6-1-50.2-3 93.2 59.8 203.6 94.4 322.2 94.4 386.4 0 597.8-320.2 597.8-597.8 0-9.2-0.2-18.2-0.6-27.2 41-29.4 76.6-66.4 104.8-108.6z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </header>
+        </div>
+
         <main class="home-main">
           <div class="home-hero section-container">
             <div class="home-max-width1 max-content-container">
@@ -183,15 +227,225 @@
                     <div class="banner1-max-width thq-section-max-width">
                       <div class="banner1-container2">
                         <h2 class="banner1-title thq-heading-2">
-                          <fragment class="home-fragment">
-                            <span class="home-text12">Design with Words</span>
+                          <fragment class="home-fragment10">
+                            <span class="home-text12">
+                              How to use the Post to N8N Add-on
+                            </span>
                           </fragment>
                         </h2>
                       </div>
                     </div>
                   </div>
                 </banner1-wrapper>
-                <span class="home-text13">
+                <features4-wrapper class="features4-wrapper">
+                  <!--Features4 component-->
+                  <div class="features4-layout301 thq-section-padding">
+                    <div class="features4-max-width thq-section-max-width">
+                      <h2 class="features4-text10 thq-heading-2">
+                        <fragment class="home-fragment14">
+                          <span class="home-text16">Key Features</span>
+                        </fragment>
+                      </h2>
+                      <div class="features4-row thq-grid-auto-300">
+                        <div class="features4-feature1">
+                          <img
+                            alt="Immediate Income Image"
+                            src="https://photos.app.goo.gl/SuWpkhDLnqnnG1wu8"
+                            class="thq-img-ratio-4-3"
+                          />
+                          <div class="features4-content1 thq-flex-column">
+                            <div
+                              class="features4-section-title1 thq-flex-column"
+                            >
+                              <h3 class="features4-title1 thq-heading-3">
+                                <fragment class="home-fragment13">
+                                  <span class="home-text15">
+                                    Immediate Income
+                                  </span>
+                                </fragment>
+                              </h3>
+                              <span
+                                class="features4-description1 thq-body-small"
+                              >
+                                <fragment class="home-fragment20">
+                                  <span class="home-text22">
+                                    Get paid on the same day for the work you
+                                    complete.
+                                  </span>
+                                </fragment>
+                              </span>
+                            </div>
+                            <div class="features4-action5 thq-flex-row">
+                              <button class="thq-button-flat">
+                                <span class="thq-body-small">
+                                  <fragment class="home-fragment12">
+                                    <span class="home-text14">Learn More</span>
+                                  </fragment>
+                                </span>
+                                <svg
+                                  viewBox="0 0 1024 1024"
+                                  class="thq-icon-small"
+                                >
+                                  <path
+                                    d="M426 256l256 256-256 256-60-60 196-196-196-196z"
+                                  ></path>
+                                </svg>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="features4-feature2">
+                          <img
+                            alt="Flexible Opportunities Image"
+                            src="https://images.unsplash.com/photo-1505847707-70e641a16345?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNjQ0NDUxMXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                            class="thq-img-ratio-4-3"
+                          />
+                          <div class="features4-content2 thq-flex-column">
+                            <div
+                              class="features4-section-title2 thq-flex-column"
+                            >
+                              <strong class="features4-title2 thq-heading-3">
+                                <fragment class="home-fragment16">
+                                  <span class="home-text18">
+                                    Flexible Opportunities
+                                  </span>
+                                </fragment>
+                              </strong>
+                              <span
+                                class="features4-description2 thq-body-small"
+                              >
+                                <fragment class="home-fragment15">
+                                  <span class="home-text17">
+                                    Find work that fits your schedule and
+                                    preferences.
+                                  </span>
+                                </fragment>
+                              </span>
+                            </div>
+                            <div class="features4-action6 thq-flex-row">
+                              <button class="thq-button-flat">
+                                <span class="thq-body-small">
+                                  <fragment class="home-fragment23">
+                                    <span class="home-text25">
+                                      Explore Jobs
+                                    </span>
+                                  </fragment>
+                                </span>
+                                <svg
+                                  viewBox="0 0 1024 1024"
+                                  class="thq-icon-small"
+                                >
+                                  <path
+                                    d="M426 256l256 256-256 256-60-60 196-196-196-196z"
+                                  ></path>
+                                </svg>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="features4-feature3">
+                          <img
+                            alt="Transparent Payments Image"
+                            src="https://images.unsplash.com/photo-1528953030358-b0c7de371f1f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNjQ0NDUxMXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                            class="thq-img-ratio-4-3"
+                          />
+                          <div class="features4-content3 thq-flex-column">
+                            <div
+                              class="features4-section-title3 thq-flex-column"
+                            >
+                              <strong class="features4-title3 thq-heading-3">
+                                <fragment class="home-fragment11">
+                                  <span class="home-text13">
+                                    Transparent Payments
+                                  </span>
+                                </fragment>
+                              </strong>
+                              <span
+                                class="features4-description3 thq-body-small"
+                              >
+                                <fragment class="home-fragment21">
+                                  <span class="home-text23">
+                                    Ensure clarity and trust with transparent
+                                    payment processes.
+                                  </span>
+                                </fragment>
+                              </span>
+                            </div>
+                            <div class="features4-action7 thq-flex-row">
+                              <button class="thq-button-flat">
+                                <span class="thq-body-small">
+                                  <fragment class="home-fragment22">
+                                    <span class="home-text24">
+                                      See How It Works
+                                    </span>
+                                  </fragment>
+                                </span>
+                                <svg
+                                  viewBox="0 0 1024 1024"
+                                  class="thq-icon-small"
+                                >
+                                  <path
+                                    d="M426 256l256 256-256 256-60-60 196-196-196-196z"
+                                  ></path>
+                                </svg>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="features4-feature4">
+                          <img
+                            alt="Community-Based Platform Image"
+                            src="https://images.unsplash.com/photo-1658242094232-0cacdec9fe55?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNjQ0NDUxMXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                            class="thq-img-ratio-4-3"
+                          />
+                          <div class="features4-content4 thq-flex-column">
+                            <div
+                              class="features4-section-title4 thq-flex-column"
+                            >
+                              <strong class="features4-title4 thq-heading-3">
+                                <fragment class="home-fragment17">
+                                  <span class="home-text19">
+                                    Community-Based Platform
+                                  </span>
+                                </fragment>
+                              </strong>
+                              <span
+                                class="features4-description4 thq-body-small"
+                              >
+                                <fragment class="home-fragment19">
+                                  <span class="home-text21">
+                                    Join a community built on trust, efficiency,
+                                    and support.
+                                  </span>
+                                </fragment>
+                              </span>
+                            </div>
+                            <div class="features4-action8 thq-flex-row">
+                              <button class="thq-button-flat">
+                                <span class="thq-body-small">
+                                  <fragment class="home-fragment18">
+                                    <span class="home-text20">
+                                      Join Our Community
+                                    </span>
+                                  </fragment>
+                                </span>
+                                <svg
+                                  viewBox="0 0 1024 1024"
+                                  class="thq-icon-small"
+                                >
+                                  <path
+                                    d="M426 256l256 256-256 256-60-60 196-196-196-196z"
+                                  ></path>
+                                </svg>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </features4-wrapper>
+                <span class="home-text26">
                   Seize the opportunity to work on your own terms
                 </span>
                 <div class="home-input-container">
@@ -209,13 +463,13 @@
           </div>
           <div class="home-section-one section-container">
             <div class="home-max-width2 max-content-container">
-              <h2 class="home-text14">
-                <span class="home-text15">How</span>
-                <span class="home-text16">श्रमः&nbsp;</span>
-                <span class="home-text17">works</span>
+              <h2 class="home-text27">
+                <span class="home-text28">How</span>
+                <span class="home-text29">श्रमः&nbsp;</span>
+                <span class="home-text30">works</span>
                 <br class="Heading2" />
               </h2>
-              <span class="home-text19">
+              <span class="home-text32">
                 <span>
                   Our simplified process ensures you can find work or hire with
                   ease and security.
@@ -228,15 +482,15 @@
               <div class="home-container2">
                 <div class="home-container3">
                   <div class="home-step1">
-                    <h1 class="home-text23"><span>1</span></h1>
-                    <h1 class="home-text25">
+                    <h1 class="home-text36"><span>1</span></h1>
+                    <h1 class="home-text38">
                       <span>Sign Up</span>
                       <br />
                       <span>Instantly</span>
                     </h1>
-                    <span class="home-text29">
+                    <span class="home-text42">
                       <span>Create your profile on</span>
-                      <span class="home-text31">श्रमः</span>
+                      <span class="home-text44">श्रमः</span>
                       <span>
                         by providing your details and skillset. Our intuitive
                         platform makes it quick and easy so you can get started
@@ -246,14 +500,14 @@
                     </span>
                   </div>
                   <div class="home-step2">
-                    <h1 class="home-text34"><span>2</span></h1>
-                    <h1 class="home-text36">
+                    <h1 class="home-text47"><span>2</span></h1>
+                    <h1 class="home-text49">
                       <span>Browse Jobs</span>
                       <br />
                       <span>or&nbsp;</span>
                       <span>Post Gigs</span>
                     </h1>
-                    <span class="home-text41">
+                    <span class="home-text54">
                       Job seekers can search for a variety of service jobs
                       listed by employers, while employers can post gigs with
                       specific requirements and find the perfect candidate.
@@ -262,13 +516,13 @@
                 </div>
                 <div class="home-container4">
                   <div class="home-step3">
-                    <h1 class="home-text42"><span>3</span></h1>
-                    <h1 class="home-text44">
+                    <h1 class="home-text55"><span>3</span></h1>
+                    <h1 class="home-text57">
                       <span>Work</span>
                       <br />
                       <span>and Deliver</span>
                     </h1>
-                    <span class="home-text48">
+                    <span class="home-text61">
                       <span>
                         Once a job is accepted, workers can immediately begin
                         their gig with confidence, knowing that their hard work
@@ -278,18 +532,18 @@
                     </span>
                   </div>
                   <div class="home-step4">
-                    <h1 class="home-text51"><span>4</span></h1>
-                    <h1 class="home-text53">
+                    <h1 class="home-text64"><span>4</span></h1>
+                    <h1 class="home-text66">
                       <span>Payment</span>
                       <br />
                       <span>and Completion</span>
                     </h1>
-                    <span class="home-text57">
+                    <span class="home-text70">
                       <span>
                         Upon completion of the service job, payment is processed
                         securely through
                       </span>
-                      <span class="home-text59">श्रमः</span>
+                      <span class="home-text72">श्रमः</span>
                       <span>
                         . Workers enjoy the fruit of their labor without
                         unnecessary delay.
@@ -311,9 +565,9 @@
                 />
               </div>
               <div class="home-content-container2">
-                <h1 class="home-text62">Flexible Opportunities Await.</h1>
-                <span class="home-text63">
-                  <span class="home-text64">श्रमः</span>
+                <h1 class="home-text75">Flexible Opportunities Await.</h1>
+                <span class="home-text76">
+                  <span class="home-text77">श्रमः</span>
                   <span>
                     is more than just a job marketplace; it's a community built
                     on the values of trust, efficiency, and flexibility, helping
@@ -336,11 +590,11 @@
           <div class="home-section-three section-container">
             <div class="home-max-width4 max-content-container">
               <div class="home-content-container3">
-                <h1 class="home-text76 Heading2">
+                <h1 class="home-text89 Heading2">
                   <span>The best content, handpicked for you.</span>
-                  <span class="home-text78">In the morning.</span>
+                  <span class="home-text91">In the morning.</span>
                 </h1>
-                <span class="home-text79 Content-Light">
+                <span class="home-text92 Content-Light">
                   <span>
                     Amet minim mollit non deserunt ullamco est sit aliqua dolor
                     do amet sint. Velit officia consequat duis enim velit
@@ -361,11 +615,11 @@
           </div>
           <div class="home-section-four section-container">
             <div class="home-max-width5 max-content-container">
-              <h2 class="home-text82">
-                <span class="home-text83">People love</span>
-                <span class="home-text84">श्रमः</span>
-                <span class="home-text85">.&nbsp;</span>
-                <span class="home-text86">So would you.</span>
+              <h2 class="home-text95">
+                <span class="home-text96">People love</span>
+                <span class="home-text97">श्रमः</span>
+                <span class="home-text98">.&nbsp;</span>
+                <span class="home-text99">So would you.</span>
               </h2>
             </div>
             <div data-type="slider" class="home-slider">
@@ -434,8 +688,8 @@
                   </div>
                 </div>
               </slide-wrapper>
-              <slide-wrapper-d87f
-                class="slide-wrapper-d87f"
+              <slide-wrapper-ttnj
+                class="slide-wrapper-ttnj"
                 rootclassname="slideundefined"
               >
                 <!--Slide component-->
@@ -496,9 +750,9 @@
                     </div>
                   </div>
                 </div>
-              </slide-wrapper-d87f>
-              <slide-wrapper-by6j
-                class="slide-wrapper-by6j"
+              </slide-wrapper-ttnj>
+              <slide-wrapper-pbdu
+                class="slide-wrapper-pbdu"
                 rootclassname="slideundefined"
               >
                 <!--Slide component-->
@@ -561,7 +815,7 @@
                     </div>
                   </div>
                 </div>
-              </slide-wrapper-by6j>
+              </slide-wrapper-pbdu>
             </div>
           </div>
         </main>
