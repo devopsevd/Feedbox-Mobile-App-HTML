@@ -176,6 +176,11 @@
   background-color: #8e622b;
 }
  
+.slideroot-class-name1 {
+  display: none;
+  background-color: #0c1c29;
+}
+ 
 .slideroot-class-name2 {
   background-color: var(--dl-color-backgrounds-purple);
 }
@@ -192,6 +197,46 @@
 .slideroot-class-name5 {
   display: none;
   background-color: #60775a;
+}
+ 
+.slideroot-class-name6 {
+  display: none;
+  background-color: #60775a;
+}
+ 
+.slideroot-class-name7 {
+  display: none;
+  background-color: #8e622b;
+}
+ 
+.slideroot-class-name8 {
+  display: none;
+  background-color: #0c1c29;
+}
+ 
+.slideroot-class-name9 {
+  display: none;
+  background-color: #60775a;
+}
+ 
+.slideroot-class-name10 {
+  display: none;
+  background-color: #8e622b;
+}
+ 
+.slideroot-class-name11 {
+  display: none;
+  background-color: #0c1c29;
+}
+ 
+.slideroot-class-name12 {
+  display: none;
+  background-color: #60775a;
+}
+ 
+.slideroot-class-name13 {
+  display: none;
+  background-color: #8e622b;
 }
  
 @media(max-width: 991px) {
