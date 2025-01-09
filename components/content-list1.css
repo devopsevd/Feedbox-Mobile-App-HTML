@@ -31,3 +31,12 @@
 .content-list1-text {
   display: inline-block;
 }
+ 
+.content-list1root-class-name {
+  margin-top: var(--dl-space-space-fourunits);
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+ 
+.content-list1root-class-name1 {
+  margin-top: var(--dl-space-space-fourunits);
+}
