@@ -68,7 +68,7 @@
   }
 }
 
-.navigation-links-wrapper-cnay {
+.navigation-links-wrapper-g00v {
   display: contents;
 }
  
@@ -138,7 +138,7 @@
   }
 }
 
-.navigation-links-wrapper-uxy4 {
+.navigation-links-wrapper-1ok0 {
   display: contents;
 }
  
@@ -208,7 +208,7 @@
   }
 }
 
-.navigation-links-wrapper-iz16 {
+.navigation-links-wrapper-ljjb {
   display: contents;
 }
  
@@ -291,14 +291,14 @@
   position: fixed;
 }
  
+.navbar-image {
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+}
+ 
 .navbar-text {
   color: #121212;
   text-decoration: none;
-}
- 
-.navbar-image {
-  width: 106px;
-  display: none;
 }
  
 .navbar-home1 {
