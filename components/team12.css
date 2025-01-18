@@ -47,7 +47,7 @@
  
 .team12-card1 {
   gap: var(--dl-space-space-oneandhalfunits);
-  width: 942px;
+  width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -548,7 +548,7 @@
   display: contents;
 }
  
-.team12-text54 {
+.team12-text59 {
   display: inline-block;
 }
  
@@ -556,7 +556,7 @@
   display: contents;
 }
  
-.team12-text55 {
+.team12-text60 {
   display: inline-block;
 }
  
@@ -564,7 +564,7 @@
   display: contents;
 }
  
-.team12-text56 {
+.team12-text61 {
   display: inline-block;
 }
  
@@ -572,7 +572,7 @@
   display: contents;
 }
  
-.team12-text57 {
+.team12-text62 {
   display: inline-block;
 }
  
@@ -580,7 +580,7 @@
   display: contents;
 }
  
-.team12-text58 {
+.team12-text65 {
   display: inline-block;
 }
  
@@ -588,7 +588,7 @@
   display: contents;
 }
  
-.team12-text59 {
+.team12-text66 {
   display: inline-block;
 }
  
@@ -596,7 +596,7 @@
   display: contents;
 }
  
-.team12-text60 {
+.team12-text67 {
   display: inline-block;
 }
  
@@ -604,7 +604,7 @@
   display: contents;
 }
  
-.team12-text66 {
+.team12-text68 {
   display: inline-block;
 }
  
@@ -612,7 +612,7 @@
   display: contents;
 }
  
-.team12-text67 {
+.team12-text69 {
   display: inline-block;
 }
  
@@ -620,7 +620,7 @@
   display: contents;
 }
  
-.team12-text68 {
+.team12-text70 {
   display: inline-block;
 }
  

@@ -79,18 +79,18 @@
 }
  
 .banner11-text22 {
+  color: var(--dl-color-grays-dark100);
   display: inline-block;
+  font-style: normal;
+  font-weight: 200;
 }
  
 .banner11-fragment4 {
   display: contents;
 }
  
-.banner11-text23 {
-  color: var(--dl-color-grays-dark100);
+.banner11-text33 {
   display: inline-block;
-  font-style: normal;
-  font-weight: 200;
 }
  
 .banner11root-class-name {

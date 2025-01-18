@@ -68,7 +68,7 @@
   }
 }
 
-.navigation-links-wrapper-ao94 {
+.navigation-links-wrapper-4fih {
   display: contents;
 }
  
@@ -138,7 +138,7 @@
   }
 }
 
-.navigation-links-wrapper-ecu3 {
+.navigation-links-wrapper-3nzc {
   display: contents;
 }
  
@@ -208,7 +208,7 @@
   }
 }
 
-.navigation-links-wrapper-vz7e {
+.navigation-links-wrapper-9mjp {
   display: contents;
 }
  
@@ -599,11 +599,11 @@
   display: none;
 }
  
-.footerroot-class-name2 {
+.footerroot-class-name1 {
   display: none;
 }
  
-.footerroot-class-name1 {
+.footerroot-class-name2 {
   display: none;
 }
  
@@ -751,7 +751,7 @@
 }
  
 .home-link {
-  color: #e22323;
+  color: rgb(226, 35, 35);
   font-size: 24px;
 }
  
@@ -774,20 +774,9 @@
   flex-direction: column;
 }
  
-.home-text11 {
+.home-text13 {
   text-align: center;
   margin-bottom: var(--dl-space-space-halfunit);
-}
- 
-.home-text12 {
-  font-size: 40px;
-  font-weight: 400;
-}
- 
-.home-text13 {
-  color: #ffbb04;
-  font-size: 40px;
-  font-weight: 500;
 }
  
 .home-text14 {
@@ -795,7 +784,18 @@
   font-weight: 400;
 }
  
+.home-text15 {
+  color: #ffbb04;
+  font-size: 40px;
+  font-weight: 500;
+}
+ 
 .home-text16 {
+  font-size: 40px;
+  font-weight: 400;
+}
+ 
+.home-text18 {
   font-size: 25px;
   align-self: center;
   text-align: center;
@@ -831,7 +831,7 @@
   flex-direction: column;
 }
  
-.home-text20 {
+.home-text22 {
   color: #D9D9D9;
   font-size: 4rem;
   text-align: center;
@@ -839,18 +839,18 @@
   margin-bottom: -30px;
 }
  
-.home-text22 {
+.home-text24 {
   font-size: 1.15rem;
 }
  
-.home-text26 {
+.home-text28 {
   color: rgb(89, 89, 89);
   font-size: 0.75rem;
   margin-top: var(--dl-space-space-oneandhalfunits);
   text-align: center;
 }
  
-.home-text28 {
+.home-text30 {
   color: #ffbb04;
 }
  
@@ -862,7 +862,7 @@
   flex-direction: column;
 }
  
-.home-text31 {
+.home-text33 {
   color: #D9D9D9;
   font-size: 4rem;
   text-align: center;
@@ -870,11 +870,11 @@
   margin-bottom: -30px;
 }
  
-.home-text33 {
+.home-text35 {
   font-size: 1.15rem;
 }
  
-.home-text38 {
+.home-text40 {
   color: rgb(89, 89, 89);
   font-size: 0.75rem;
   margin-top: var(--dl-space-space-oneandhalfunits);
@@ -895,7 +895,7 @@
   flex-direction: column;
 }
  
-.home-text39 {
+.home-text41 {
   color: #D9D9D9;
   font-size: 4rem;
   text-align: center;
@@ -903,12 +903,12 @@
   margin-bottom: -30px;
 }
  
-.home-text41 {
+.home-text43 {
   font-size: 1.15rem;
   text-align: center;
 }
  
-.home-text45 {
+.home-text47 {
   color: rgb(89, 89, 89);
   font-size: 0.75rem;
   margin-top: var(--dl-space-space-oneandhalfunits);
@@ -923,7 +923,7 @@
   flex-direction: column;
 }
  
-.home-text48 {
+.home-text50 {
   color: #D9D9D9;
   font-size: 4rem;
   text-align: center;
@@ -931,20 +931,20 @@
   margin-bottom: -30px;
 }
  
-.home-text50 {
+.home-text52 {
   font-size: 1.15rem;
   align-self: center;
   text-align: center;
 }
  
-.home-text54 {
+.home-text56 {
   color: rgb(89, 89, 89);
   font-size: 0.75rem;
   margin-top: var(--dl-space-space-oneandhalfunits);
   text-align: center;
 }
  
-.home-text56 {
+.home-text58 {
   color: #ffbb04;
 }
  
@@ -982,15 +982,15 @@
   justify-content: center;
 }
  
-.home-text59 {
+.home-text61 {
   margin-bottom: 24px;
 }
  
-.home-text60 {
+.home-text62 {
   color: var(--dl-color-grays-gray100);
 }
  
-.home-text61 {
+.home-text63 {
   color: #ffbb04;
   font-size: 18px;
 }
@@ -1013,15 +1013,15 @@
   justify-content: center;
 }
  
-.home-text73 {
+.home-text75 {
   margin-bottom: 24px;
 }
  
-.home-text75 {
+.home-text77 {
   color: var(--dl-color-backgrounds-primary);
 }
  
-.home-text76 {
+.home-text78 {
   color: var(--dl-color-grays-gray100);
 }
  
@@ -1046,7 +1046,7 @@
   object-fit: cover;
 }
  
-.home-text79 {
+.home-text81 {
   font-size: 30px;
 }
  
@@ -1055,23 +1055,11 @@
   flex-direction: column;
 }
  
-.home-text80 {
+.home-text82 {
   font-size: 42px;
   text-align: center;
   font-weight: 400;
   margin-bottom: var(--dl-space-space-threeunits);
-}
- 
-.home-text81 {
-  font-family: "Lexend";
-  line-height: 1.3;
-  text-transform: none;
-  text-decoration: none;
-}
- 
-.home-text82 {
-  color: #ffbb04;
-  font-size: 44px;
 }
  
 .home-text83 {
@@ -1082,6 +1070,18 @@
 }
  
 .home-text84 {
+  color: #ffbb04;
+  font-size: 44px;
+}
+ 
+.home-text85 {
+  font-family: "Lexend";
+  line-height: 1.3;
+  text-transform: none;
+  text-decoration: none;
+}
+ 
+.home-text86 {
   color: var(--dl-color-grays-black100);
   font-family: "Lexend";
   line-height: 1.3;
@@ -1115,7 +1115,7 @@
   object-fit: cover;
 }
  
-.home-text85 {
+.home-text87 {
   font-size: 30px;
 }
  
@@ -1124,23 +1124,11 @@
   flex-direction: column;
 }
  
-.home-text86 {
+.home-text88 {
   font-size: 42px;
   text-align: center;
   font-weight: 400;
   margin-bottom: var(--dl-space-space-threeunits);
-}
- 
-.home-text87 {
-  font-family: "Lexend";
-  line-height: 1.3;
-  text-transform: none;
-  text-decoration: none;
-}
- 
-.home-text88 {
-  color: #ffbb04;
-  font-size: 44px;
 }
  
 .home-text89 {
@@ -1151,6 +1139,18 @@
 }
  
 .home-text90 {
+  color: #ffbb04;
+  font-size: 44px;
+}
+ 
+.home-text91 {
+  font-family: "Lexend";
+  line-height: 1.3;
+  text-transform: none;
+  text-decoration: none;
+}
+ 
+.home-text92 {
   color: var(--dl-color-grays-black100);
   font-family: "Lexend";
   line-height: 1.3;
@@ -1183,7 +1183,7 @@
   object-fit: cover;
 }
  
-.home-text91 {
+.home-text93 {
   font-size: 30px;
 }
  
@@ -1192,23 +1192,11 @@
   flex-direction: column;
 }
  
-.home-text92 {
+.home-text94 {
   font-size: 42px;
   text-align: center;
   font-weight: 400;
   margin-bottom: var(--dl-space-space-threeunits);
-}
- 
-.home-text93 {
-  font-family: "Lexend";
-  line-height: 1.3;
-  text-transform: none;
-  text-decoration: none;
-}
- 
-.home-text94 {
-  color: #ffbb04;
-  font-size: 44px;
 }
  
 .home-text95 {
@@ -1219,6 +1207,18 @@
 }
  
 .home-text96 {
+  color: #ffbb04;
+  font-size: 44px;
+}
+ 
+.home-text97 {
+  font-family: "Lexend";
+  line-height: 1.3;
+  text-transform: none;
+  text-decoration: none;
+}
+ 
+.home-text98 {
   color: var(--dl-color-grays-black100);
   font-family: "Lexend";
   line-height: 1.3;
@@ -1251,7 +1251,7 @@
   object-fit: cover;
 }
  
-.home-text97 {
+.home-text99 {
   font-size: 30px;
 }
  
@@ -1260,23 +1260,11 @@
   flex-direction: column;
 }
  
-.home-text98 {
+.home-text100 {
   font-size: 42px;
   text-align: center;
   font-weight: 400;
   margin-bottom: var(--dl-space-space-threeunits);
-}
- 
-.home-text99 {
-  font-family: "Lexend";
-  line-height: 1.3;
-  text-transform: none;
-  text-decoration: none;
-}
- 
-.home-text100 {
-  color: #ffbb04;
-  font-size: 44px;
 }
  
 .home-text101 {
@@ -1287,6 +1275,18 @@
 }
  
 .home-text102 {
+  color: #ffbb04;
+  font-size: 44px;
+}
+ 
+.home-text103 {
+  font-family: "Lexend";
+  line-height: 1.3;
+  text-transform: none;
+  text-decoration: none;
+}
+ 
+.home-text104 {
   color: var(--dl-color-grays-black100);
   font-family: "Lexend";
   line-height: 1.3;
@@ -1310,28 +1310,28 @@
 }
  
 @media(max-width: 991px) {
-  .home-text20 {
-    text-align: center;
-  }
   .home-text22 {
     text-align: center;
   }
-  .home-text31 {
+  .home-text24 {
     text-align: center;
   }
   .home-text33 {
     text-align: center;
   }
-  .home-text39 {
+  .home-text35 {
     text-align: center;
   }
   .home-text41 {
     text-align: center;
   }
-  .home-text48 {
+  .home-text43 {
     text-align: center;
   }
   .home-text50 {
+    text-align: center;
+  }
+  .home-text52 {
     text-align: center;
   }
   .home-image2 {
@@ -1342,14 +1342,14 @@
     margin-bottom: 42px;
     padding-right: 0px;
   }
-  .home-text59 {
+  .home-text61 {
     width: 100%;
   }
   .home-content-container2 {
     margin-bottom: 42px;
     padding-right: 0px;
   }
-  .home-text73 {
+  .home-text75 {
     width: 100%;
   }
   .home-image3 {
@@ -1359,7 +1359,7 @@
 }
  
 @media(max-width: 767px) {
-  .home-text11 {
+  .home-text13 {
     margin-bottom: var(--dl-space-space-twounits);
   }
   .home-steps {
@@ -1407,16 +1407,16 @@
   .home-image3 {
     margin-bottom: var(--dl-space-space-twounits);
   }
-  .home-text80 {
+  .home-text82 {
     margin-bottom: var(--dl-space-space-twounits);
   }
-  .home-text86 {
+  .home-text88 {
     margin-bottom: var(--dl-space-space-twounits);
   }
-  .home-text92 {
+  .home-text94 {
     margin-bottom: var(--dl-space-space-twounits);
   }
-  .home-text98 {
+  .home-text100 {
     margin-bottom: var(--dl-space-space-twounits);
   }
 }
